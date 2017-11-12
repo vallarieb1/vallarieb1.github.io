@@ -14,7 +14,7 @@ p {
 }
 
 a {
-    color: #d45757
+    color: #000
 }
 
 a.active, a:active, a:focus, a:hover {
@@ -41,7 +41,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 25px;
@@ -49,12 +48,12 @@ section h3.section-subheading {
 
 @media (min-width:768px) {
     section {
-        padding: 150px 0
+        padding: 50px 0
     }
 }
 
 ::-moz-selection {
-    background: #d45757;
+    background: #000;
     text-shadow: none
 }
 
@@ -72,7 +71,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #d45757;
+    -webkit-tap-highlight-color: #000;
 }
 
 #mainNav {
@@ -202,6 +201,10 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
+.card-block {
+    padding: 20px
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none
@@ -228,7 +231,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background: rgba(254, 209, 54, .9)
+    background: #ee7156
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -686,7 +689,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .text-primary {
-    color: #fed136!important
+    color: #ee7156!important
 }
 
 .btn-primary {

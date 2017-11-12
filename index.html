@@ -31,19 +31,21 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./img/vblogo2.png" width="63px" height="63x" alt="VAL Bhuthongkum">
-                VAL<br />Bhuthongkum</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="./img/vblogo2.png" width="63px" height="63x" alt="VAL Bhuthongkum"> VAL
+                <br />Bhuthongkum</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+                        <a class="nav-link js-scroll-trigger" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -68,7 +70,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Curiosity is your friend.</div>
                 <div class="intro-heading">"Anyone who stops learning is old, whether at twenty or eighty.
-						<br /> Anyone who keeps learning stays young." - Henry Ford</div>
+                    <br /> Anyone who keeps learning stays young." - Henry Ford</div>
                 <a class="btn btn-xl js-scroll-trigger" href="#about">About Me</a>
             </div>
         </div>
@@ -78,6 +80,8 @@
     <!-- About -->
     <section id="about">
         <div class="container">
+
+            <!--
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Life &amp Work</h2>
@@ -85,115 +89,230 @@
 							I'm on my fifth, testing the limits of my potential by learning how to code. Could this be it?</h3>
                 </div>
             </div>
+        </div>
+    -->
+
+            <!-- Accordian, Collapsible start-->
+
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="col-lg-12 text-center card-header" role="tab" id="headingOne">
+                        <h2 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Profile
+                            </a>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block">
+                            <h3 class="section-subheading text-muted">
+                                An ambitious, adaptive and versatile project manager, who is not afraid to tackle challenges in different fields, even if
+                                it means starting from zero in order to pursue achievements. Adept at conceptualizing, designing,
+                                developing and implementing solutions to compliment business operation and strategy. Capable
+                                of discerning and explaining pertinent information to a variety of audiences. Interested
+                                in acquiring and increasing technical skills and knowledge in UX/UI designs, full-stack development,
+                                analytics, and emerging technology.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col-lg-12 text-center card-header" role="tab" id="headingTwo">
+                        <h2 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Outlook on Life &amp Work
+                            </a>
+                            </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-block">
+                            <h3 class="section-subheading text-muted">
+                                I want to keep my mind young and sharp as well as my opinions relevant to the evolving society. Similar to work. They say
+                                that statistically, people change their career a minimum of 5 times during their professional
+                                life. I'm on my fifth, testing the limits of my potential by learning how to code. (Or is
+                                this a motive to resist aging?) Could this be it?
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col-lg-12 text-center card-header" role="tab" id="headingThree">
+                        <h2 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Professional Experience
+                            </a>
+                            </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="card-block">
+
+                            <section id="experience">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <ul class="timeline">
+                                                <li>
+                                                    <div class="timeline-image">
+                                                        <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                                    </div>
+                                                    <div class="timeline-panel">
+                                                        <div class="timeline-heading">
+                                                            <h4>Jan 00 - Sept 01</h4>
+                                                            <h4 class="subheading">Project Designer</h4>
+                                                        </div>
+                                                        <div class="timeline-body">
+                                                            <p class="text-muted">My first job!
+                                                                <br /> At Heath Design Group, Inc., I provided custom and overall
+                                                                interior design solutions, prepared AutoCAD drawings and
+                                                                manual draftings (yes, we did
+                                                                <em>that</em> back in the day), on projects in the Baltimore,
+                                                                MD area. </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-inverted">
+                                                    <div class="timeline-image">
+                                                        <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                                    </div>
+                                                    <div class="timeline-panel">
+                                                        <div class="timeline-heading">
+                                                            <h4>Oct 01 - Jan 04</h4>
+                                                            <h4 class="subheading">Design &amp Construction Coordinator</h4>
+                                                        </div>
+                                                        <div class="timeline-body">
+                                                            <p class="text-muted">Let the fun begin!
+                                                                <br />At CitiFinanical, I was given the opportunity to design (full
+                                                                scope) and remotely manage the construction of over 100 CitiFinancial
+                                                                Branch network throughout the West Coast (incl. Hawaii),
+                                                                Texas, Some Mid-West and Mid-Atlantic states successfully.
+                                                                Apart from multiple small branches all at once, I was assigned
+                                                                larger projects that continue to challenge my professional
+                                                                capabilities.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="timeline-image">
+                                                        <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                                    </div>
+                                                    <div class="timeline-panel">
+                                                        <div class="timeline-heading">
+                                                            <h4>Feb 04 - Aug 12</h4>
+                                                            <h4 class="subheading">Project Manager and Space Analysis &amp Benchmarking Specialist</h4>
+                                                        </div>
+                                                        <div class="timeline-body">
+                                                            <p class="text-muted">Challenge Accepted!
+                                                                <br />My project management and business skills flourished at Citi
+                                                                (Citigroup, N.A.). At first, I contemplated on resigning
+                                                                to pursue a Master's degree. This contemplation was counteredwith
+                                                                an enticing challenges of working on complex and aggressive
+                                                                design &amp construction projects. They were tough, but I
+                                                                had fun!</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-inverted">
+                                                    <div class="timeline-image">
+                                                        <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                                    </div>
+
+                                                    <div class="timeline-panel">
+                                                        <div class="timeline-heading">
+                                                            <h4>Nov 12 - Nov 13</h4>
+                                                            <h4 class="subheading">Teacher &amp Tutor</h4>
+                                                        </div>
+                                                        <div class="timeline-body">
+                                                            <p class="text-muted">I fell in L-O-V-E.
+                                                                <br />I didn't fall in love with work, but with the love of my
+                                                                life. It was hard to leave my successful career at Citi,
+                                                                but I had to explore my personal life's potentialand maintain
+                                                                balance. I decided to move, satisfy my heart, see if I can
+                                                                get that Master's degree under my belt, AND experience working
+                                                                abroad. I was looking for a temp job to help a friend at
+                                                                his language school.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="timeline-image">
+                                                        <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                                    </div>
+                                                    <div class="timeline-panel">
+                                                        <div class="timeline-heading">
+                                                            <h4>Nov 13 - Jun 14</h4>
+                                                            <h4 class="subheading">HR Manager: Mobility, Recruitment, Talent Management</h4>
+                                                        </div>
+                                                        <div class="timeline-body">
+                                                            <p class="text-muted">I am too American?!
+                                                                <br />Working GDF SUEZ Energy Asia Co., Ltd.in Bangkok, Thailand
+                                                                was a French company with stakes in the utility/ energy companies
+                                                                in Thailand. It was difficult working for a company with
+                                                                a preconceived perception of Americans. But you know what?
+                                                                I wouldn't change a thing about my work ethics. Working hard
+                                                                and smart is key.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="timeline-inverted">
+                                                    <div class="timeline-image">
+                                                        <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                                    </div>
+
+                                                    <div class="timeline-panel">
+                                                        <div class="timeline-heading">
+                                                            <h4>Nov 14 - Aug 17</h4>
+                                                            <h4 class="subheading">HRD (HR Development) Manager</h4>
+                                                        </div>
+                                                        <div class="timeline-body">
+                                                            <p class="text-muted">Bitten by the Tech bug.
+                                                                <br />Aware Technology Solutions Co., Ltd. (ATS) was looking for
+                                                                an HRD Manager to help strategize and develop their biggest
+                                                                asset - the employees. Without having prior experiences in
+                                                                software development, I dove right in, researched, worked
+                                                                with managers, and developed the required criterias and skill
+                                                                sets (technical and soft) to better identify professional
+                                                                improvement opportunities through measureable evaluation
+                                                                methods. My experiences working with so talented people at
+                                                                ATS urged me to explore and venture into the software development
+                                                                field.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
 
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Jan 00 - Sept 01</h4>
-                                    <h4 class="subheading">Project Designer</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">My first job! <br /> At Heath Design Group, Inc., I provided custom and overall interior design solutions, prepared AutoCAD drawings and manual draftings (yes, we did <em>that</em> back in the day), on projects in the Baltimore, MD area. </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Oct 01 - Jan 04</h4>
-                                    <h4 class="subheading">Design &amp Construction Coordinator</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Let the fun begin! <br />At CitiFinanical, I was given the opportunity to design (full scope) and remotely manage the construction of over 100 CitiFinancial Branch network throughout the West Coast (incl. Hawaii), Texas, Some Mid-West and Mid-Atlantic states successfully.  Apart from multiple small branches all at once, I was assigned larger projects that continue to challenge my professional capabilities.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Feb 04 - Aug 12</h4>
-                                    <h4 class="subheading">Project Manager and Space Analysis &amp Benchmarking Specialist</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Challenge Accepted! <br />My project management and business skills flourished at Citi (Citigroup, N.A.). At first, I contemplated on resigning to pursue a Master's degree. This contemplation was counteredwith an enticing challenges of working on complex and aggressive design &amp construction projects. They were tough, but I had fun!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                            </div>
 
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Nov 12 - Nov 13</h4>
-                                    <h4 class="subheading">Teacher &amp Tutor</h4>
+                                                <li class="timeline-inverted">
+                                                    <div class="timeline-image">
+                                                        <h4>The Next
+                                                            <br>Chapter
+                                                            <br>Awaits!</h4>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">I fell in L-O-V-E. <br />I didn't fall in love with work, but with the love of my life. It was hard to leave my successful career at Citi, but I had to explore my personal life's potentialand maintain balance. I decided to move, satisfy my heart, see if I can get that Master's degree under my belt, AND experience working abroad. I was looking for a temp job to help a friend at his language school.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Nov 13 - Jun 14</h4>
-                                    <h4 class="subheading">HR Manager: Mobility, Recruitment, Talent Management</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">I am too American?! <br />Working GDF SUEZ Energy Asia Co., Ltd.in Bangkok, Thailand was a French company with stakes in the utility/ energy companies in Thailand. It was difficult working for a company with a preconceived perception of  Americans. But you know what? I wouldn't change a thing about my work ethics. Working hard and smart is key. </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                            </div>
-
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Nov 14 - Aug 17</h4>
-                                    <h4 class="subheading">HRD (HR Development) Manager</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Bitten by the Tech bug. <br />Aware Technology Solutions Co., Ltd. (ATS) was looking for an HRD Manager to help strategize and develop their biggest asset - the employees. Without having prior experiences in software development, I dove right in, researched, worked with managers, and developed the required criterias and skill sets (technical and soft) to better identify professional improvement opportunities through measureable evaluation methods. My experiences working with so talented people at ATS urged me to explore and venture into the software development field.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
+                            </section>
 
 
-
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>The Next
-                    <br>Chapter
-                    <br>Awaits!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <!-- /END Accordian, Collapsible -->
+
+
     </section>
+
+    <!-- /End of About -->
+
+
 
     <!-- Services -->
 
@@ -202,34 +321,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Skills</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">.....</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
-            </span>
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
+                    </span>
                     <h4 class="service-heading">Project Management</h4>
-                    <p class="text-muted">12+ yrs of full-service project management from conceptualization to  initialization to completion. Breaking down projects into manageable and achievable sequence is the secret to our success.</p>
+                    <p class="text-muted">12+ yrs of full-service project management from conceptualization to initialization to completion. Breaking
+                        down projects into manageable and achievable sequence is the secret to our success.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
                     <h4 class="service-heading">Responsive Design</h4>
                     <p class="text-muted">Will have to add more of this information once the courses are complete.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-pie-chart fa-stack-1x fa-inverse"></i>
-            </span>
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-pie-chart fa-stack-1x fa-inverse"></i>
+                    </span>
                     <h4 class="service-heading">Analysis &amp Development</h4>
-                    <p class="text-muted">All problems have more than one solutions. We are here to provide you with solutions with our extensive analysis and development process.</p>
+                    <p class="text-muted">All problems have more than one solutions. We are here to provide you with solutions with our extensive
+                        analysis and development process.</p>
                 </div>
             </div>
         </div>
@@ -256,7 +377,8 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Ground-Up Construction</h4>
-                        <p class="text-muted">Project Hercules: <br />Citi Cards </p>
+                        <p class="text-muted">Project Hercules:
+                            <br />Citi Cards </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -270,7 +392,8 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Critical System Infrastructure Replacement</h4>
-                        <p class="text-muted">800 KVA N+1 UPS Replacement: <br />Citi Cards</p>
+                        <p class="text-muted">800 KVA N+1 UPS Replacement:
+                            <br />Citi Cards</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -353,18 +476,18 @@
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -373,22 +496,22 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="img/team/2A.jpg" alt="">
                         <h4>Ciel</h4>
-                        <p class="text-muted">Lead  Better Half</p>
+                        <p class="text-muted">Lead Better Half</p>
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -401,18 +524,18 @@
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -432,23 +555,23 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
+                        <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+                    </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
+                        <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+                    </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
+                        <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+                    </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
+                        <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -460,7 +583,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Don't be shy. Send me your questions, request to connect, <br /> or simply saying, "Hello" will be reciprocated.</h3>
+                    <h3 class="section-subheading text-muted">Don't be shy. Send me your questions, request to connect,
+                        <br /> or simply saying, "Hello" will be reciprocated.</h3>
                 </div>
             </div>
             <div class="row">
@@ -510,18 +634,18 @@
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
                             <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
+                                <i class="fa fa-twitter"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
+                                <i class="fa fa-facebook"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
+                                <i class="fa fa-linkedin"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -558,16 +682,18 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam
+                                    quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
+                                    facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Threads</li>
                                     <li>Category: Illustration</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                                    <i class="fa fa-times"></i>
+                                    Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -593,16 +719,18 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam
+                                    quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
+                                    facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Explore</li>
                                     <li>Category: Graphic Design</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                                    <i class="fa fa-times"></i>
+                                    Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -628,16 +756,18 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam
+                                    quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
+                                    facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Finish</li>
                                     <li>Category: Identity</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                                    <i class="fa fa-times"></i>
+                                    Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -663,16 +793,18 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam
+                                    quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
+                                    facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Lines</li>
                                     <li>Category: Branding</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                                    <i class="fa fa-times"></i>
+                                    Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -698,16 +830,18 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam
+                                    quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
+                                    facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Southwest</li>
                                     <li>Category: Website Design</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                                    <i class="fa fa-times"></i>
+                                    Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -733,16 +867,18 @@
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam
+                                    quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
+                                    facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2017</li>
                                     <li>Client: Window</li>
                                     <li>Category: Photography</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                                    <i class="fa fa-times"></i>
+                                    Close Project</button>
                             </div>
                         </div>
                     </div>
@@ -765,6 +901,20 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('.collapse').collapse( {
+            toggle: false
+        })
+    </script>
 
 </body>
 
